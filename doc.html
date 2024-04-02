@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <title>Healthy Chef Creations</title>
+</head>
+<body>
+<nav class="container-fluid">
+    <ul>
+        <li><strong>Healthy Chef Creations</strong></li>
+    </ul>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#recipes">Recipes</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact" role="button">Contact</a></li>
+    </ul>
+</nav>
+<main class="container">
+    <div class="grid">
+        <section id="home">
+            <hgroup>
+                <h2>Welcome to Healthy Chef Creations</h2>
+                <h3>Your guide to healthy eating</h3>
+            </hgroup>
+            <p>Discover delicious, nutritious recipes that will help you eat well and feel great. Explore our collection and start your journey to a healthier lifestyle today.</p>
+            <figure>
+                <img src="https://source.unsplash.com/featured/?healthy,food" alt="Healthy meal" />
+                <figcaption>Featured Recipe: <a href="#recipes" target="_blank">Explore Now</a></figcaption>
+            </figure>
+        </section>
+        <!-- About Page -->
+        <section id="about">
+            <hgroup>
+                <h2>About Us</h2>
+                <h3>Our Mission & Vision</h3>
+            </hgroup>
+            <p>We're dedicated to promoting a healthy lifestyle through delicious, nutritious recipes. Our team believes in the power of fresh ingredients and the joy of cooking at home.</p>
+            <figure>
+                <img src="https://source.unsplash.com/featured/?kitchen" alt="Our Kitchen" />
+                <figcaption>The Heart of Our Creations</figcaption>
+            </figure>
+        </section>
+        <!-- Recipes Page -->
+        <section id="recipes">
+            <hgroup>
+                <h2>Our Recipes</h2>
+                <h3>Explore by Category</h3>
+            </hgroup>
+            <p>From energizing breakfasts to delightful dinners, find the perfect recipe for any time of day.</p>
+            <figure>
+                <img src="https://source.unsplash.com/featured/?healthy,recipes" alt="Healthy Recipes" />
+                <figcaption>Browse Our Collection</figcaption>
+            </figure>
+        </section>
+        <!-- Blog Page -->
+        <section id="blog">
+            <hgroup>
+                <h2>From Our Blog</h2>
+                <h3>Insights & Inspirations</h3>
+            </hgroup>
+            <p>Delve into articles on healthy living, cooking tips, and the benefits of natural ingredients.</p>
+            <figure>
+                <img src="https://source.unsplash.com/featured/?healthy,lifestyle" alt="Healthy Lifestyle" />
+                <figcaption>Read Our Latest Posts</figcaption>
+            </figure>
+        </section>
+        <!-- Contact Page -->
+        <section id="contact">
+            <hgroup>
+                <h2>Contact Us</h2>
+                <h3>We'd Love to Hear From You</h3>
+            </hgroup>
+            <p>Got a question, feedback, or suggestion? Fill out the form below or follow us on social media.</p>
+            <form class="grid">
+                <input type="text" id="name" name="name" placeholder="Your Name" aria-label="Your Name" required>
+                <input type="email" id="email" name="email" placeholder="Your Email" aria-label="Your Email" required>
+                <textarea id="message" name="message" placeholder="Your Message" aria-label="Your Message" required></textarea>
+                <button type="submit" onclick="event.preventDefault()">Send Message</button>
+            </form>
+        </section>
+    </div>
+</main>
+<footer class="container">
+    <small>
+        <a href="#privacy">Privacy Policy</a> • <a href="#terms">Terms of Use</a>
+    </small>
+</footer>
+</body>
+</html>
